@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="jquery.passwordstrength.js"></script>
+  <title>Password Form Responsive </title>
+</head>
+
+<body>
+  
+  <form>
+    <img src="images.png">
+    <div class="input-box">
+      <span><i class="fa-solid fa-user"></i></span>
+      <input type="text" placeholder="User name" required>
+    </div>
+    <div class="input-box">
+      <span><i class="fa-solid fa-envelope"></i></span>
+      <input type="Email" placeholder="Email Id" required>
+    </div>
+    <div class="input-box">
+      <span><i class="fa-solid fa-key"></i></span>
+      <input type="password" id="password" placeholder="Password" required>
+    </div>
+    
+    <<button type="submit">Register</button>
+  </form>
+  
+  <script type="text/javascript">
+    $(function() {
+        $("#password").passwordStrength();
+    });
+</script>
+
+</body>
+
+</html>
