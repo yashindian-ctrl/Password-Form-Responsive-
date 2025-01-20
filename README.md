@@ -1,6 +1,4 @@
-Sure! Here's a sample README file for a "Responsive Password Form with Strength Indicator":
 
----
 
 # Responsive Password Form with Strength Indicator
 
