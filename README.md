@@ -19,7 +19,7 @@ To set up this project locally, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/responsive-password-form.git
+    git clone https://github.com/yashindian-ctrl/Password-Form-Responsive-
     ```
 2. **Navigate to the Project Directory**:
     ```bash
