@@ -42,7 +42,7 @@ To set up this project locally, follow these steps:
 
 - **HTML**: Provides the structure of the form and includes elements for user input and password strength feedback.
 - **CSS**: Ensures the form is responsive and visually appealing across different devices.
-- **JavaScript**: Implements the logic for assessing password strength and updating the indicator in real-time.
+- **jQuery**: Implements the logic for assessing password strength and updating the indicator in real-time.
 
 ## Contributing
 
